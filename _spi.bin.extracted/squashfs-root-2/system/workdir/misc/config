@@ -1,0 +1,42 @@
+#comment
+#configuration for MPLAYER
+#
+
+#select audio output with ALSA
+ao=alsa
+
+#cache in kBytes
+cache=2048
+#start play after cache fill %
+cache-min=3
+
+#hide detail information
+quiet=yes
+
+#disable vidio
+vo=null
+vc=null
+
+#debug print level, for printing EOF
+msglevel=global=6
+
+#patch for MAP100 ALSA clock
+af=channels=2
+
+#for MP3, use mad decoder, set mad as first
+ac=mad,ffwmav2,ffwmav1,tremor,
+
+[protocol.mms]
+profile-desc="used for mms://"
+cache=64
+cache-min=10
+
+[protocol.rtsp]
+profile-desc="used for rtsp://"
+cache=80
+cache-min=50
+
+[extension.flac]
+profile-desc="use for flac"
+cache=8192
+

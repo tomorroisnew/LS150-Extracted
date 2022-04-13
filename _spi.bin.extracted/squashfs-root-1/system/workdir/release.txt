@@ -1,0 +1,93 @@
+  <default remote="wiimu" revision="stable/wiimu-3.5"/>
+firmware/applications
+================================================================
+commit 14f4f2fea9e6e13ac6163045ed461121d8f3726d
+Author: Huaijing wang <huaijing.wang@wiimu.com>
+Date:   Mon Jul 18 20:11:05 2016 +0800
+
+    [other] fixed MFI airplay not bonjour spotify service
+    
+    Change-Id: Ib060a4db697777e37ced7e99db3c8799fad2e862
+firmware/prebuilt
+================================================================
+commit a857bc2f0bc654b6e4476c976ab257fa21876842
+Author: Dongsheng Liao <dongsheng.liao@wiimu.com>
+Date:   Fri May 6 11:00:43 2016 +0800
+
+    [other] change ota server to linkplay.com & add uuid to products.xml
+    
+    Change-Id: Iabad04a8ef8fb5e39dea253bf3c0a3350c27ff35
+    (cherry picked from commit 957626701031ae465a406bb678b890aa6e53e690)
+firmware/middleware
+================================================================
+commit 3695b1ea951013da651a3b8e2debc20f25ca5e29
+Author: Huaijing wang <huaijing.wang@wiimu.com>
+Date:   Mon Jul 11 16:05:39 2016 +0800
+
+    [other]fixed Tunein play some stations paused worng set setream eof
+    
+    Change-Id: I95e461249c3e6f6c282cfcf1de0dcd5ff0c40d0c
+firmware/platform-mt-rt288x
+================================================================
+commit 95cc1fe5363002e6bc26b98e666848d91db49739
+Author: Huaijing wang <huaijing.wang@wiimu.com>
+Date:   Sun Jun 19 14:08:46 2016 +0800
+
+    [other] dhcpc renew notify a01controller
+    
+    Change-Id: Ib5840f794ffb812e7b21a76bf75de217f33a0d6e
+    (cherry picked from commit 2554289c4389cd4ca6b22431b28221e5126126e5)
+firmware/uboot-mt7620
+================================================================
+commit d1b4f219246499f9025b1d4c0f0c54e3ee8cce3b
+Author: Dongsheng Liao <dongsheng.liao@wiimu.com>
+Date:   Thu Nov 19 18:58:23 2015 +0800
+
+    do not compile for prebuilt
+    
+    Change-Id: Ic175a1b46367c281fee43913813fececa94d2e28
+firmware/uboot-mt7688
+================================================================
+commit 6a98a2be674f6cd26dcb8d45618cff6d1823071b
+Author: Dongsheng Liao <dongsheng.liao@wiimu.com>
+Date:   Thu Nov 19 18:58:34 2015 +0800
+
+    do not compile for prebuilt
+    
+    Change-Id: I8e4f23056d1bc6cd61bcb554d244d187e50c9197
+firmware/kernel-mt5350
+================================================================
+commit bad89aa825647ae40c446e5ccdee28cf743afd16
+Author: alex.wang <alex.wang@wiimu.com>
+Date:   Fri Jul 1 18:17:46 2016 +0800
+
+    [other] change channel stay time to 4s when receive ezlink pkt
+    
+    Change-Id: I6d24bc2ecbb62ebd0edd80c12e6ee9477bc23899
+firmware/kernel-mt7620
+================================================================
+commit 464d23cdc8fb0784a7536da52dc9e00fc09919fc
+Author: haiyong.zhou <haiyong.zhou@wiimu.com>
+Date:   Mon Mar 7 11:29:06 2016 +0800
+
+    [FW-245] haiyong: fix NVRAM crash after restore
+    
+    Change-Id: I1464d155024f79b3d7f833724116cf83579f5012
+firmware/kernel-mt7688
+================================================================
+commit 32c71696cea61373eca3af562431cfbf3a1f8401
+Author: alex.wang <alex.wang@wiimu.com>
+Date:   Fri Jul 1 18:14:11 2016 +0800
+
+    [other] change channel stay time to 4s when receive ezlink pkt
+    
+    Change-Id: Ic8fe6b8dc2950276ec0fd335e276c01abb0476d1
+firmware/uboot-mt5350
+================================================================
+commit b5ea6ea187ee5e68145d6b1cd69e36b3e4347c6f
+Author: Dongsheng Liao <dongsheng.liao@wiimu.com>
+Date:   Thu Nov 19 18:58:13 2015 +0800
+
+    do not compile for prebuilt
+    
+    Change-Id: I225dd48654fd728511a3cad4aa82a71079b8fedf

@@ -1,0 +1,90 @@
+firmware/applications
+================================================================
+commit 7e0ebed559c50d40c891c53ffe4f654f645e76e3
+Author: haiyong.zhou <haiyong.zhou@wiimu.com>
+Date:   Mon Mar 7 14:44:36 2016 +0800
+
+    [other] haiyong: add more language support, and add reverted code (orinal merge from master)
+    
+    Change-Id: I91ce08cca84d774242d9def870df9053f3ead516
+firmware/prebuilt
+================================================================
+commit 62674e0dd08bb8d26d64f051d2ba9e4cc87f7ad7
+Author: Dongsheng Liao <dongsheng.liao@wiimu.com>
+Date:   Fri Mar 4 23:37:02 2016 +0800
+
+    [FW-243] add prebuilt 7688 backup image
+    
+    Change-Id: I5692c0ed0f0110c7e07caf10c716b53fffcb9021
+firmware/middleware
+================================================================
+commit bf267bc18e975d0a919c28798cf0b2c680893013
+Author: haiyong.zhou <haiyong.zhou@wiimu.com>
+Date:   Sat Mar 5 17:59:48 2016 +0800
+
+    [other] haiyong merge with master: add AMR enc lib
+    
+    Change-Id: I40813fc2c78b9da00097104b0226f790d65a32d7
+firmware/platform-mt-rt288x
+================================================================
+commit ac9b472ac7f504fc4e4c5a69ed1c9c086442f345
+Author: Dongsheng Liao <dongsheng.liao@wiimu.com>
+Date:   Wed Feb 17 11:48:05 2016 +0800
+
+    web: show remote mcu version
+    
+    Change-Id: I33afa62a357b2e270b4b955494ccb9351d305c15
+firmware/uboot-mt7620
+================================================================
+commit d1b4f219246499f9025b1d4c0f0c54e3ee8cce3b
+Author: Dongsheng Liao <dongsheng.liao@wiimu.com>
+Date:   Thu Nov 19 18:58:23 2015 +0800
+
+    do not compile for prebuilt
+    
+    Change-Id: Ic175a1b46367c281fee43913813fececa94d2e28
+firmware/uboot-mt7688
+================================================================
+commit 6a98a2be674f6cd26dcb8d45618cff6d1823071b
+Author: Dongsheng Liao <dongsheng.liao@wiimu.com>
+Date:   Thu Nov 19 18:58:34 2015 +0800
+
+    do not compile for prebuilt
+    
+    Change-Id: I8e4f23056d1bc6cd61bcb554d244d187e50c9197
+firmware/kernel-mt5350
+================================================================
+commit 4ef02257f8a2dee1797edb3b51f07ebb56a1de24
+Author: haiyong.zhou <haiyong.zhou@wiimu.com>
+Date:   Mon Mar 7 14:47:08 2016 +0800
+
+    [other] haiyong: fix compile error after merge
+    
+    Change-Id: I40003968fd23c13992961ce6a6190a7fa378968e
+firmware/kernel-mt7620
+================================================================
+commit 464d23cdc8fb0784a7536da52dc9e00fc09919fc
+Author: haiyong.zhou <haiyong.zhou@wiimu.com>
+Date:   Mon Mar 7 11:29:06 2016 +0800
+
+    [FW-245] haiyong: fix NVRAM crash after restore
+    
+    Change-Id: I1464d155024f79b3d7f833724116cf83579f5012
+firmware/kernel-mt7688
+================================================================
+commit 87c8df1090b99d8205f17ff261daf882f0edbcc3
+Author: haiyong.zhou <haiyong.zhou@wiimu.com>
+Date:   Mon Mar 7 11:10:23 2016 +0800
+
+    [FW-245] fix NVRAM crash issue after factory restore
+    
+    Change-Id: I55c243ad8b9d4253456c4026e3f3db237bf15bc6
+firmware/uboot-mt5350
+================================================================
+commit b5ea6ea187ee5e68145d6b1cd69e36b3e4347c6f
+Author: Dongsheng Liao <dongsheng.liao@wiimu.com>
+Date:   Thu Nov 19 18:58:13 2015 +0800
+
+    do not compile for prebuilt
+    
+    Change-Id: I225dd48654fd728511a3cad4aa82a71079b8fedf
